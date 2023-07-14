@@ -1,0 +1,19 @@
+.btn-icn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    font-size: 1rem;
+
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+    background-color: var(--white);
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.btn-icn:hover, .btn-icn:active { background-color: var(--clr-bg-t); }

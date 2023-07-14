@@ -1,0 +1,37 @@
+.list.carousel ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 2.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--clr-bg-t);
+    overflow-x: scroll;
+}
+
+.list {
+    width: 100%;
+    margin: 0;
+    padding: var(--padding-h) var(--padding-v);
+    box-sizing: border-box;
+}
+
+.list h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    padding: 0;
+}
+
+.list.wrap ul {
+    flex-wrap: wrap;
+}
